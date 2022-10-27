@@ -591,9 +591,12 @@ margin-top: 20px;
     padding:10px  20px;
  }
 }
-@media(max-width:767px)
+@media(max-width:500px)
 {
   .contact .contactForm {
     min-width: 400px;
    }
+  .contact .contactForm .row input, .contact .contactForm .row2 textarea {
+   font-size:12px;
+  }
 }
