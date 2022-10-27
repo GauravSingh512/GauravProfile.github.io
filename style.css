@@ -591,3 +591,9 @@ margin-top: 20px;
     padding:10px  20px;
  }
 }
+@media(max-width:767px)
+{
+  .contact .contactForm {
+    min-width: 400px;
+   }
+}
